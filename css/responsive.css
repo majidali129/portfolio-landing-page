@@ -1,0 +1,247 @@
+@media screen and (max-width:1120px) {
+  .center{
+    display: none;
+  }
+  .achievement_content{
+    justify-content: space-around;
+  }
+  .motivation_2_wrapper{
+    width: 70%;
+    padding: 3em;
+  }
+}
+
+@media screen and (max-width:992px){
+  .motivation_2_wrapper{
+    width: 80%;
+    padding: 3em;
+  }
+
+  .achievement_content{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .left_side,.right_side{
+    width: 100%;
+    /* gap: 10px; */
+  }
+  .blog_banner,.channel_banner{
+    width: 40%;
+    border: 2px solid yellow;
+  }
+
+
+}
+
+@media screen and (max-width:768px) {
+
+  /* Header */
+  .left>figure>img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .right {
+    display: none;
+  }
+
+  /* About section */
+  .about_section{
+    height: auto;
+    padding: 3em 0em;
+  }
+  .about_wrapper {
+    flex-direction: column;
+  }
+
+  .about_text {
+    width: 100%;
+    padding: 2em;
+    /* padding: 1em 0.5em; */
+  }
+  .about_image>figure{
+    width: 350px;
+    height: 350px;
+  }
+  .about_image>figure>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+
+  /* responsibility section */
+  .responsibility_section {
+    height: 100vh;
+  }
+
+  .responsibility_wrapper {
+    width: 90%;
+  }
+
+  .responsibility_header {
+    width: 90%;
+  }
+
+  /* plan section */
+  .plan_section {
+    height: auto;
+  }
+
+  .plan_header {
+    font-size: 1.7rem;
+  }
+
+  .plan_card_container {
+    flex-direction: column;
+    /* gap: 14px; */
+  }
+
+  .plan_card {
+    /* width: 90% !important; */
+    height: auto;
+    /* border: 1px solid green; */
+  }
+
+  .card_header {
+    font-size: 1.8rem;
+  }
+
+  .card_text {
+    font-size: 1.5rem;
+  }
+
+  /* Achievement section */
+  
+  .right_side{
+    padding: 0;
+  }
+  .left_side_content_wrapper,.right_side_content_wrapper{
+    gap: 20px;
+  }
+  .left_content_card,.right_content_card{
+    padding: 2em 1em;
+    border-radius: 3px;
+  }
+  .achievement_card_header{
+    color: #2f255e;
+    font-size: 1.7rem;
+    /* font-weight: 400; */
+  }
+  .achievement_card_text{
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+  }
+
+  /* Achievement section end */
+  
+
+  /* Motivation_section_2 */
+  .motivation_2_wrapper{
+    width: 80%;
+    padding: 3em;
+  }
+  .motivation_2_wrapper>.header{
+    font-size: 1.2rem;
+    line-height: normal;
+    letter-spacing: normal;
+    word-spacing: normal;
+  }
+  .motivation_2_wrapper>.main_content{
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: normal;
+  }
+
+/* Values Section  */
+.values_header{
+  font-size: 1.6rem;
+}
+.values_wrapper>figure{
+  width: 60%;
+}
+
+.blog_banner_wrapper,.channel_banner_wrapper{
+  flex-direction: column;
+}
+.blog_banner_wrapper>.blog_banner,
+.channel_banner_wrapper>.channel_banner{
+  width: 90%;
+  /* gap: 30px; */
+  margin-bottom: 50px;
+}
+.blog_banner_wrapper>.blog_banner>a>button,
+.channel_banner_wrapper>.channel_banner>a>button{
+  width: 50%;
+  margin: auto;
+}
+
+/* Contact Section */
+.contact{
+  height: auto;
+  padding: 2.5em 0em;
+}
+.contact_wrapper{
+  flex-direction: column;
+  gap: 40px;
+}
+.address_wrapper{
+  width: 100%;
+  padding: 0;
+}
+.form_wrapper{
+  width: 100%;
+  /* border: 1px solid green; */
+}
+.credentials{
+  flex-direction: column;
+}
+.credentials>input,
+.requirements>input,textarea
+{
+  width: 100%;
+  padding: 0.4em 1.4em;
+  font-size: 1.4rem;
+}
+
+.submit_btn{
+  width: 100%;
+  padding: 0.6em 3em;
+  /* width: fit-content; */
+  border-radius: 4px;
+  font-size: 1.4rem;
+}
+
+
+
+}
+
+
+@media screen and (max-width:576px){
+  .brand_logo_wrapper>figure{
+    width: 260px;
+    height: 230px;
+  }
+  .blog_banner_wrapper>.blog_banner,
+.channel_banner_wrapper>.channel_banner{
+  width: 90%;
+  /* gap: 30px; */
+  margin-bottom: 30px;
+}
+.about_image>figure{
+  width: 250px;
+  height: 250px;
+}
+.about_image>figure>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.motivation_2_wrapper{
+  width: 100%;
+  padding: 1em;
+}
+
+}
